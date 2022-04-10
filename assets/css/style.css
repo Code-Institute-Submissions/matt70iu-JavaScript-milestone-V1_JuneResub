@@ -1,0 +1,54 @@
+
+
+ html, body {
+    width: 100;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0, auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-container {
+    width: 22rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+#list-input-field {
+    width: 300px;
+    height: 46px;
+    border: 1px, solid, black;
+    font-size: 25px;
+    outline: none;
+    vertical-align: middle;
+}
+
+#add-to-list {
+    width: 50px;
+    height: 50px;
+    border: 1px, solid, black;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+#my-to-dos {
+    margin-top: 1.75rem;
+
+}
+
+.paragraph-styles {
+    font-size: 20px;
+    margin: 0;
+    cursor: pointer;
+}

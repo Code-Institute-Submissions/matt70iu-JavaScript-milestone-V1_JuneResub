@@ -1,12 +1,5 @@
-let toDoButton = document.getElementById('add-to-list');
-let toDoContain = document.getElementById('my-to-dos-container');
-let inputField = document.getElementById('list-input-field');
+//declarations
 
-toDoButton.addEventListener('click', function() {
-    let paragraph = document.createElement('p')
-    paragraph.innerText = inputField.value;
-    toDoContain.appendChild(paragraph);
-    inputField.value = "";
-   
-    
-})
+let listInput = document.querySelector('.list-input');
+let mainButton = document.querySelector('.main-button');
+let toDoList = document.querySelector('.to-do-sec');

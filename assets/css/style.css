@@ -7,15 +7,18 @@
 }
 
 h1 {
-    text-align: left;
+    text-align: center;
 }
 
 
 
 .list-container {
     width: 100%;
-    justify-content: center;
+    height: 100%;
+    display: flex;
     align-items: center;
+    justify-items: center;
+    justify-content: center;
     
     
 
@@ -28,7 +31,8 @@ h1 {
     border: 1px, solid, black;
     font-size: 25px;
     outline: none;
-    vertical-align: middle;
+    
+    
 }
 
 #add-to-list {
@@ -36,11 +40,19 @@ h1 {
     height: 50px;
     border: 1px, solid, black;
     font-size: 30px;
+   
+    
+
+    
+    
     
 }
 
 .my-to-dos {
     margin-top: 1.75rem;
+    display: flex;
+    flex-direction: column;
+
     
 
 }

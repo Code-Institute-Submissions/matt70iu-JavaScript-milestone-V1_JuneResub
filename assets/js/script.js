@@ -1,5 +1,22 @@
-//declarations
+//Variable declarations
 
-let listInput = document.querySelector('.list-input');
-let mainButton = document.querySelector('.main-button');
-let toDoList = document.querySelector('.to-do-sec');
+let addItemButton = document.getElementById('add-item-button');
+let toDoList = document.getElementById ('to-do-list');
+let listInput = document.getElementById('list-input');
+
+//Event Listeners
+
+addItemButton.addEventListener('click', function() {
+    let paragraph = document.createElement('p')
+    toDoList.appendChild(paragraph);
+
+})
+
+
+
+
+
+
+
+
+

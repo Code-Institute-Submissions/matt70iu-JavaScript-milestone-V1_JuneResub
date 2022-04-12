@@ -8,6 +8,7 @@ let listInput = document.getElementById('list-input');
 
 addItemButton.addEventListener('click', function() {
     let paragraph = document.createElement('p')
+    paragraph.innerText = listInput.value;
     toDoList.appendChild(paragraph);
 
 })

@@ -1,23 +1,37 @@
 //Variable declarations
 
-let addItemButton = document.getElementById('add-item-button');
-let toDoList = document.getElementById ('to-do-list');
-let listInput = document.getElementById('list-input');
+let inputArea = document.getElementById('input-area');
+let formElement = document.getElementById('add-item-list');
+let listElement = document.querySelector('ul');
+let noOfTasksElement = document.getElementById('no-of-tasks');
 
-//Event Listeners
+//List array
 
-addItemButton.addEventListener('click', function() {
-    let paragraph = document.createElement('p')
-    paragraph.innerText = listInput.value;
-    toDoList.appendChild(paragraph);
+let todoList = [ 'Buy milk' , 'Collect kids from school'];
 
-})
+//Functions
+
+function addToList(){
+    todoList.forEach(function(item){
+        let newItem = document.createElement('li');
+
+        let span = document.createElement('span');
+        span.innerHTML = item;
+        newItem.appendChild(span);
+
+        let anchorElement = document.createElement('a');
+        anchorElement.classList.add('remove');
+        anchorElement.innerHTML = 'delete';
+        newItem.appendChild(anchorElement);
+
+        listElement.appendChild(newItem)
+    }
+      );
+
+      noOfTasksElement.innerHTML = todoList.length;
+}
 
 
 
 
-
-
-
-
-
+addToList();

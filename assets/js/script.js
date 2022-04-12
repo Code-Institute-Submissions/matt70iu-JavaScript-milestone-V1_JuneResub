@@ -31,7 +31,18 @@ function addToList(){
       noOfTasksElement.innerHTML = todoList.length;
 }
 
-
-
-
 addToList();
+
+function addItem(){
+    if (inputArea.value){
+        todoList.push(inputArea.value);
+        addToList();
+    }
+
+}
+
+formElement.addEventListener('submit', function(a) {
+    a.preventDefault();
+    addItem();
+}
+);

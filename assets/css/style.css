@@ -6,4 +6,69 @@
 body {
     height:100vh;
     width: 100vh;
+    display:flex;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+.main-container {
+    background-color: beige;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-to-do-list {
+    background-color: white;
+    min-width: 0.625rem;
+    max-width: 37.5rem;
+    border-radius: 0.5rem;
+    height: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px, 0px, 20px, white;
+
+}
+
+.main-header {
+    padding:2rem;
+}
+
+.main-header h1 {
+    color: brown;
+    text-align: center;
+}
+
+.main-list {
+    padding: 2rem;
+    overflow-y: scroll;
+
+}
+
+.add-item {
+    display: flex;
+    padding: 2rem;
+   
+}
+
+.add-item input {
+    border: 1px, solid, white;
+    border-bottom-left-radius: 0.313rem;
+    border-top-left-radius:0.313rem;
+    flex-grow: 1;
+    outline: none;
+    font-size:1.563rem;
+    
+}
+
+.add-item button {
+    border-bottom-right-radius: 0.313rem;
+    border-top-right-radius:0.313rem;
+    background-color: red;
+    cursor: pointer;
+    padding: 1rem;
+    border: none;
+    outline: none;
+}
+

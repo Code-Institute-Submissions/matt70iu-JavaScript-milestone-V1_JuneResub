@@ -5,7 +5,7 @@ let noOfTasksElement = document.getElementById('no-of-to-dos');
 
 //array for todo list
 
-let todoList = ['clean driveway' , 'mow lawn'];
+let todoList = [];
 
 //Functions
 
@@ -38,9 +38,15 @@ function addToList(){
 
         anchorElement.addEventListener('click', (e)=> deleteItem(e));
 
-        //add ui to ul
+        //add li to ul
 
         listElement.appendChild(newItem);
+
+        listElement.addEventListener('click' , function(){
+            listElement.style.textDecoration = 'line-through';
+        }
+        
+        )
     });
 
     noOfTasksElement.innerHTML = todoList.length;

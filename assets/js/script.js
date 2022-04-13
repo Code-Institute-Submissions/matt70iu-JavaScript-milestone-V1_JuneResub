@@ -21,7 +21,7 @@ function addToList(){
 
         let anchorElement = document.createElement('a');
         anchorElement.classList.add('delete');
-        anchorElement.innerHTML = '<i class="fas-fa-trash-alt">';
+        anchorElement.innerHTML = '<i class="fa-solid fa-trash-can"></i>';
         newItem.appendChild(anchorElement);
 
         //add ui to ul

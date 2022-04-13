@@ -51,8 +51,15 @@ function addToList(){
 
 addToList();
 
+
+function noWhiteSpace(s) {
+    let stringwidthoutspace = s. trim();
+    return stringwidthoutspace.length > 0;
+}
+
+
 function additem(){
-    if(inputElement.value) {
+    if(inputElement.value && noWhiteSpace(inputElement.value)) {
         todoList.push(inputElement.value);
         addToList();
 

@@ -7,6 +7,18 @@ let noOfTasksElement = document.getElementById('no-of-to-dos');
 
 let todoList = ['clean driveway' , 'mow lawn'];
 
+//Functions
+
+function deleteItem(e){
+    task = e.target.parentElement.previousElementSibling.innerHTML;
+    let index = todoList.indexOf(task);
+    if(index !== -1) {
+        todoList.splice(index, 1);
+    }
+
+    addToList();
+}
+
 function addToList(){
     listElement.innerHTML = '';
     todoList.forEach(function(item){
@@ -23,6 +35,8 @@ function addToList(){
         anchorElement.classList.add('delete');
         anchorElement.innerHTML = '<i class="fa-solid fa-trash-can"></i>';
         newItem.appendChild(anchorElement);
+
+        anchorElement.addEventListener('click', (e)=> deleteItem(e));
 
         //add ui to ul
 
@@ -48,9 +62,10 @@ function additem(){
 
 }
 
-//event listener
+//event listeners
 
 formElement.addEventListener('submit' , function(e) {
     e.preventDefault();
     additem()
 });
+

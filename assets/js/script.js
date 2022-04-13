@@ -1,48 +1,56 @@
-//Variable declarations
-
-let inputArea = document.getElementById('input-area');
-let formElement = document.getElementById('add-item-list');
+let inputElement = document.querySelector('input');
+let formElement = document.querySelector('form');
 let listElement = document.querySelector('ul');
-let noOfTasksElement = document.getElementById('no-of-tasks');
+let noOfTasksElement = document.getElementById('no-of-to-dos');
 
-//List array
+//array for todo list
 
-let todoList = [ 'Buy milk' , 'Collect kids from school'];
-
-//Functions
+let todoList = ['clean driveway' , 'mow lawn'];
 
 function addToList(){
+    listElement.innerHTML = '';
     todoList.forEach(function(item){
         let newItem = document.createElement('li');
-
+        
+        //add new span for text
         let span = document.createElement('span');
         span.innerHTML = item;
         newItem.appendChild(span);
 
+        //add delete button
+
         let anchorElement = document.createElement('a');
-        anchorElement.classList.add('remove');
-        anchorElement.innerHTML = 'delete';
+        anchorElement.classList.add('delete');
+        anchorElement.innerHTML = '<i class="fas-fa-trash-alt">';
         newItem.appendChild(anchorElement);
 
-        listElement.appendChild(newItem)
-    }
-      );
+        //add ui to ul
 
-      noOfTasksElement.innerHTML = todoList.length;
+        listElement.appendChild(newItem);
+    });
+
+    noOfTasksElement.innerHTML = todoList.length;
+    inputElement.value = '';
+
+    
 }
 
 addToList();
 
-function addItem(){
-    if (inputArea.value){
-        todoList.push(inputArea.value);
+function additem(){
+    if(inputElement.value) {
+        todoList.push(inputElement.value);
         addToList();
+
     }
+    
+
 
 }
 
-formElement.addEventListener('submit', function(a) {
-    a.preventDefault();
-    addItem();
-}
-);
+//event listener
+
+formElement.addEventListener('submit' , function(e) {
+    e.preventDefault();
+    additem()
+});

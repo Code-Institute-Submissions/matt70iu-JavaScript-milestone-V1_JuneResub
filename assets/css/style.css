@@ -10,6 +10,12 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .main-container {
     background-color: beige;
     display: flex;
@@ -44,6 +50,23 @@ body {
     padding: 2rem;
     overflow-y: scroll;
     flex-grow: 1;
+}
+
+.main-list ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.main-list ul li i {
+    cursor: pointer;
+    color: red;
+    padding: 1rem;
+}
+
+.delete {
+    cursor: pointer;
 
 }
 

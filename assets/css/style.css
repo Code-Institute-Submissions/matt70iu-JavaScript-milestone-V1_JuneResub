@@ -85,6 +85,7 @@ ul {
     border-top-left-radius:5px;
     outline: none;
     font-size:1.563rem;
+    width: 100%;
     
     
     
@@ -99,5 +100,4 @@ ul {
     border: none;
     outline: none;
 }
-
 

@@ -17,6 +17,7 @@ ul {
     padding: 0;
 }
 
+
 .main-container {
     display: flex;
     flex-grow: 1;
@@ -59,7 +60,10 @@ ul {
     align-items: center;
     cursor: pointer;
     font-size: 20px;
+    
 }
+
+
 
 .main-list ul li i {
     cursor: pointer;

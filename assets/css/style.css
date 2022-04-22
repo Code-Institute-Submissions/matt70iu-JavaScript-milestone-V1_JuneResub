@@ -4,11 +4,15 @@
 }
 
 body {
-    background-image:linear-gradient(to right, red , yellow);
+    background-image: url("../images/");
     height:100vh;
     max-width: 100%;
     display:flex;
     font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    background-position: 100px;
 }
 
 ul {

@@ -105,3 +105,16 @@ ul {
     outline: none;
 }
 
+
+.footer-social {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3.75rem;
+    align-items: center;
+    justify-items:center;
+    margin-top: 6.25rem;
+}
+
+.footer-social i {
+    font-size: 30px;
+}

@@ -17,6 +17,12 @@ ul {
     padding: 0;
 }
 
+h1 {
+    margin-bottom: 1.75rem;
+    font-size: 1.88rem;
+
+}
+
 
 .main-container {
     display: flex;
@@ -26,7 +32,7 @@ ul {
     align-items: center;
 }
 
-.my-to-do-list {
+.my-shopping-list {
     background-color: white;
     min-width: 26vw;
     max-width: 39vw;
@@ -112,7 +118,7 @@ ul {
     gap: 3.75rem;
     align-items: center;
     justify-items:center;
-    margin-top: 6.25rem;
+    margin-top: 3.25rem;
 }
 
 .footer-social i {

@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url("../images/");
+    background-image: url("../images/notebook-2.jpg");
     height:100vh;
     max-width: 100%;
     display:flex;
@@ -12,7 +12,8 @@ body {
 }
 
 img {
-    background-position: 100px;
+    background-position: 10% 10%;
+    
 }
 
 ul {
@@ -54,7 +55,7 @@ h1 {
 }
 
 .main-header h1 {
-    color: brown;
+    color: red;
     text-align: center;
 }
 
@@ -127,4 +128,5 @@ h1 {
 
 .footer-social i {
     font-size: 30px;
+    color:black
 }

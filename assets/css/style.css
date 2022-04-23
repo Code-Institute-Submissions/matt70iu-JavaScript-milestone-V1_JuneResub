@@ -31,7 +31,7 @@ h1 {
 
 .main-container {
     display: flex;
-    flex-grow: 1;
+    flex-grow: 2;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -129,4 +129,19 @@ h1 {
 .footer-social i {
     font-size: 30px;
     color:black
+}
+
+.instructions-font {
+    font-weight: 700;
+    padding-top: 15px;
+}
+
+.footer-instructions {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 3.75rem;
+    align-items: center;
+    justify-items:center;
+    margin-top: 3.25rem;
+
 }

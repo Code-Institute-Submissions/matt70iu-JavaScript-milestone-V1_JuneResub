@@ -1,6 +1,6 @@
 const inputElement = document.querySelector('input');
 const formElement = document.querySelector('form');
-const listElement = document.querySelector('ul');
+const listElement = document.getElementById('list-add');
 const noOfTasksElement = document.getElementById('no-of-to-dos');
 
 //array for todo list

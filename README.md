@@ -38,7 +38,12 @@ The user can also navigate back to the main app page when viewing instructions.
   - At the bottom of the main home page, there is a link to a set of instructions, as well as social media icon links to facebook, twitter and instagram. These are illustrated below.
 
 
-   ![task-counter-increase](assets/images/screenshots/Screenshot%202022-instructions-link-social.png)
+   ![instructions-link-social](assets/images/screenshots/Screenshot%202022-instructions-link-social.png)
+
+
+    - As the user adds a task, a trash min icon appears beside that task to enable the user to later remove that task once it has been completed, as illustrated below.
+    
+     ![trash-can-delete](assets/images/screenshots/Screenshot%202022-trash-can.png)
 
 
 

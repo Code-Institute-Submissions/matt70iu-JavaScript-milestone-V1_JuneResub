@@ -154,7 +154,6 @@ ul p {
     flex-direction: column;
     overflow:hidden;
    
-
 }
 
 .instructions-head {
@@ -173,6 +172,14 @@ ul p {
     align-items: center;
     justify-items:center;
     
-
 }
 
+@media screen and (max-width: 500px) {
+
+    .footer-social {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+
+}

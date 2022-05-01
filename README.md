@@ -154,18 +154,26 @@ https://www.youtube.com/watch?v=IhmSidOJSeE&t=715s
 
  Channel Link: https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw (kevin Powell)
 
- -----------------------------------------------------------------
+ ----------------------------------------------------------------
 
 
 
-### Content 
+### Content
+
+- All wording was written by the developer with the aim of creating a simple, useful to do list.
+- Social media icons contained in the footer were sourced from https://www.fontawsome.com.
 
 
 ### Images
 
+- All images used were taken from https://www.pixabay.com and are free of copyright.
 
 
 ### Acknowledgements
+
+- My mentor for all his help and advise.
+- The tutors at code institue for their helpful assistance.
+- The youtubers whose tutorials helped further develop my coding skills.
 
 
 

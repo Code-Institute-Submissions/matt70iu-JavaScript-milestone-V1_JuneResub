@@ -62,12 +62,14 @@ The user can also navigate back to the main app page when viewing instructions.
 - Main input field and add button kept popping out of the container on smaller screen sizes. Changed CSS property on input field to 100% of container size to rectify issue.
 - Errors in html validator after making social icons live caused by open tags. Rectified tags as needed.
 - Tested app live on Samsung Galaxy S22 and found instructions were not fully visbale on smaller screens as they would not scroll. Amended html markup to rectify.
+- Social icons and links too close to margins on smaller screens, inserted media quueries to compensate.
 
 
+### Validator Testing
 
-
-
-### Validator Testing 
+- HTML
+- No errors displayed when code was run through HTML Validator ![html validator]()
+https://validator.w3.org/
 
 
 

@@ -63,6 +63,7 @@ The user can also navigate back to the main app page when viewing instructions.
 - Errors in html validator after making social icons live caused by open tags. Rectified tags as needed.
 - Tested app live on Samsung Galaxy S22 and found instructions were not fully visbale on smaller screens as they would not scroll. Amended html markup to rectify.
 - Social icons and links too close to margins on smaller screens, inserted media quueries to compensate.
+- Removed redundent variables cuasing warning in jshint, updated js with es6 code to prevent es6 related errors using const.
 
 
 ### Validator Testing
@@ -79,11 +80,14 @@ https://validator.w3.org/)
 
 - No errors displayed when code was run through CSS Validator  ![CSS Validator](assets/images/screenshots/Screenshot%202022-css-validator.png)
 
+https://jigsaw.w3.org/css-validator/
+
 - Js
 
 - No errors displayed when code was run through Js Validator
+![js Validator](assets/images/screenshots/Screenshot%202022-js-validator-screenshot.png)
 
-
+https://jshint.com/
 
 
 

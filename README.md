@@ -116,8 +116,45 @@ Making a local clone:
 
 ## Credits
 
-Other resourses Used:
+- Youtube tutorials used to help build site:
 
+https://www.youtube.com/watch?v=mC45hUE0dNs&t=2s
+
+Channel Link:https://www.youtube.com/channel/UC_H7wrnwGU3g1xrLasMf6Gg (Samir Saini)
+
+- Helped drastically in terms of basic site template as well as putting js code theory into proctise as a real live example.
+
+-----------------------------------------------------------------
+
+https://www.youtube.com/watch?v=-pRg_daFjfk&t=550s
+
+Channel Link:https:https://www.youtube.com/channel/UCCcK9DoXcPYcUYU2aSR7zzQ (learn-webdev)
+
+- Found this very helpful and easy to follow. Helped me to understand targeting of elements better between html and js.
+
+-----------------------------------------------------------------
+
+https://www.youtube.com/watch?v=MkESyVB4oUw&t=1264s
+
+Channel Link:https://www.youtube.com/channel/UCBBGM84ZOs7z5jpTQAaZ_Hg (Tyler Potts)
+
+- Slightly more feature rich example which gave me some great ideas in terms of possible future developement of site/app.
+
+-----------------------------------------------------------------
+
+https://www.youtube.com/watch?v=3T_Jy1CqH9k&t=284s
+
+Channel Link: https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw (kevin Powell)
+
+- Really helped in terms of styling and editing of backgound image(s).
+
+-----------------------------------------------------------------
+
+https://www.youtube.com/watch?v=IhmSidOJSeE&t=715s
+
+ Channel Link: https://www.youtube.com/channel/UCJZv4d5rbIKd4QHMPkcABCw (kevin Powell)
+
+ -----------------------------------------------------------------
 
 
 

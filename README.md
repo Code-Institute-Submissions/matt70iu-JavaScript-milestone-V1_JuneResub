@@ -68,8 +68,22 @@ The user can also navigate back to the main app page when viewing instructions.
 ### Validator Testing
 
 - HTML
-- No errors displayed when code was run through HTML Validator ![html validator]()
-https://validator.w3.org/
+- No errors displayed when code was run through HTML Validator ![html validator](assets/images/screenshots/Screenshot%202022-html-%20validator.png)
+
+  ![html validator](assets/images/screenshots/Screenshot%202022-instructions-html-validator.png)
+https://validator.w3.org/)
+
+
+
+- CSS
+
+- No errors displayed when code was run through CSS Validator  ![CSS Validator](assets/images/screenshots/Screenshot%202022-css-validator.png)
+
+- Js
+
+- No errors displayed when code was run through Js Validator
+
+
 
 
 

@@ -1,3 +1,4 @@
+/*jshint esversion: 6 */
 const inputElement = document.querySelector('input');
 const formElement = document.querySelector('form');
 const listElement = document.getElementById('list-add');
@@ -10,8 +11,7 @@ let todoList = [];
 //Functions
 
 function deleteItem(e){
-    task = e.target.parentElement.previousElementSibling.innerHTML;
-    const index = todoList.indexOf(task);
+    let index = todoList.indexOf;
     if(index !== -1) {
         todoList.splice(index, 1);
     }
@@ -42,11 +42,6 @@ function addToList(){
 
         listElement.appendChild(newItem);
 
-        listElement.addEventListener('click' , function(){
-            //listElement.style.textDecoration = 'line-through';
-        }
-        
-        )
     });
 
     noOfTasksElement.innerHTML = todoList.length;
@@ -79,6 +74,6 @@ function additem(){
 
 formElement.addEventListener('submit' , function(e) {
     e.preventDefault();
-    additem()
+    additem();
 });
 

@@ -103,7 +103,6 @@ ul p {
 .add-item {
     display: flex;
     padding: 2rem;
-    align-items: left;
    
 }
 
@@ -158,7 +157,7 @@ ul p {
 
 .instructions-head {
     margin-top: 15px;
-    text-align: centergit;
+    text-align: center;
 }
 
 .instructions-font {

@@ -144,17 +144,22 @@ ul p {
     color:black
 }
 
+.instructions-head {
+    margin-top: 15px;
+    text-align: center;
+}
+
 .instructions-font {
     font-weight: 700;
-    padding-top: 15px;
+    padding-top: 30px;
 }
 
 .footer-instructions {
     display: grid;
     grid-auto-flow: column;
-    gap: 3.75rem;
     align-items: center;
     justify-items:center;
-    margin-top: 3.25rem;
+    
 
 }
+

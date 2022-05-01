@@ -41,12 +41,12 @@ ul p {
     align-items: center;
 }
 
-.my-shopping-list {
+.my-main-list {
     background-color: white;
     min-width: 26vw;
     max-width: 39vw;
     border-radius: 10px;
-    height: 69vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     overflow:hidden;
@@ -144,9 +144,22 @@ ul p {
     color:black
 }
 
+.my-instructions-list {
+    background-color: white;
+    min-width: 26vw;
+    max-width: 25vw;
+    border-radius: 10px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    overflow:hidden;
+   
+
+}
+
 .instructions-head {
     margin-top: 15px;
-    text-align: center;
+    text-align: centergit;
 }
 
 .instructions-font {

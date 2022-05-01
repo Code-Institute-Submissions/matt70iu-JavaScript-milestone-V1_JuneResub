@@ -16,6 +16,9 @@ The main list area consists of a title, task counter, input field, add button, s
 The user can also navigate back to the main app page when viewing instructions.
 
 ![main-list](assets/images/screenshots/Screenshot%202022-main-list.png)
+Languages Used
+HTML5
+CSS3
 
 ### Existing Features
 
@@ -94,7 +97,22 @@ https://jshint.com/
 ## Deployment
 
 
+The site was deployed to GitHub pages. The steps to deploy are as follows:
 
+1. Login to github and select the correct repository.
+2. Select the settings tab at the top the the repository.
+3. On the side bar, under the 'code and automation' heading, select 'pages'.
+4. Under the source heading, click the 'none' dropdown and select 'masterbranch'.
+5. Once done, the page will automaticallty refresh.
+6. Site is now live under https://matt70iu.github.io/JavaScript-milestone-V1/ in github pages.
+
+Making a local clone:
+
+1. Login to gitbub and download github desktop.
+2. Select the correct repository from the dropdown list in the top left.
+3. Secect the 'repository' menu and from it select 'pull'.
+4. Select 'open in visual studio code' from the home screen.
+5. The repository can now be worked on locally, without the need to gitpod etc.
 
 ## Credits
 

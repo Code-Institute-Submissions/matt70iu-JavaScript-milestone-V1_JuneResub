@@ -13,7 +13,7 @@ body {
 }
 
 img {
-    background-position: 10% 10%;  
+    background-position: 10% 10%;
 }
 
 ul {
@@ -25,7 +25,6 @@ ul {
 h1 {
     margin-bottom: 1.75rem;
     font-size: 1.88rem;
-
 }
 
 ul p {
@@ -54,12 +53,17 @@ ul p {
 }
 
 .main-header {
-    padding:2rem;   
+    padding:2rem;    
 }
 
 .main-header h1 {
     color: red;
     text-align: center;
+}
+
+.instructions-head {
+    text-align: center;
+    color: red;
 }
 
 .main-list {
@@ -73,7 +77,7 @@ ul p {
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 20px;   
 }
 
 .main-list ul li i {
@@ -84,13 +88,11 @@ ul p {
 
 .delete {
     cursor: pointer;
-
 }
 
 .add-item {
     display: flex;
-    padding: 2rem;
-   
+    padding: 2rem;  
 }
 
 .add-item input {
@@ -99,7 +101,7 @@ ul p {
     border-top-left-radius:5px;
     outline: none;
     font-size:1.563rem;
-    width: 100%;   
+    width: 100%;    
 }
 
 .add-item button {
@@ -111,8 +113,6 @@ ul p {
     border: none;
     outline: none;
 }
-
-/*Footer styling*/
 
 .footer-social {
     display: grid;
@@ -137,36 +137,26 @@ ul p {
     border-radius: 10px;
     height: 70vh;
     display: flex;
-    justify-content: left;
-    overflow:hidden;  
+    flex-direction: column;
+    overflow:hidden;   
 }
 
 .instructions-head {
-    text-align: left;
-    font-weight: 700;
-    color: red;
-}
-
-.instructions-head-2 {
-    margin-top: 20px;
-    color: red;
-    font-weight: 700;
-
+    margin-top: 15px;
+    text-align: center;
 }
 
 .instructions-font {
     font-weight: 700;
-    padding-top: 25px;
+    padding-top: 30px;
 }
 
 .footer-instructions {
     display: grid;
     grid-auto-flow: column;
     align-items: center;
-    justify-items:center; 
+    justify-items:center;   
 }
-
-/*Media queries*/
 
 @media screen and (max-width: 500px) {
 

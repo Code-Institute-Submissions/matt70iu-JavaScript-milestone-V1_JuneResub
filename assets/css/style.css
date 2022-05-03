@@ -62,11 +62,6 @@ ul p {
     text-align: center;
 }
 
-.instructions-head {
-    text-align: center;
-    color: red;
-}
-
 .main-list {
     padding: 2rem;
     overflow-y: scroll;
@@ -142,18 +137,26 @@ ul p {
     border-radius: 10px;
     height: 70vh;
     display: flex;
-    flex-direction: column;
+    justify-content: left;
     overflow:hidden;  
 }
 
 .instructions-head {
-    margin-top: 15px;
-    text-align: center;
+    text-align: left;
+    font-weight: 700;
+    color: red;
+}
+
+.instructions-head-2 {
+    margin-top: 20px;
+    color: red;
+    font-weight: 700;
+
 }
 
 .instructions-font {
     font-weight: 700;
-    padding-top: 30px;
+    padding-top: 25px;
 }
 
 .footer-instructions {

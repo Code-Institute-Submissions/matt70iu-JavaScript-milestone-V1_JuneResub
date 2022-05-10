@@ -168,10 +168,13 @@ https://www.youtube.com/watch?v=IhmSidOJSeE&t=715s
 
 
 
+
+
 ### Content
 
 - All wording was written by the developer with the aim of creating a simple, useful to do list.
 - Social media icons contained in the footer were sourced from https://www.fontawsome.com.
+- Add favicon to site using https://favicon.io/
 
 
 ### Images

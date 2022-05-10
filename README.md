@@ -82,6 +82,7 @@ The user can also navigate back to the main app page when viewing instructions.
  ### Features Left to Implement
 
  - Would like to add a number beside each list item which increases according to the number of items on the list, as well as the already included counter at the top of the list.
+ - Would like to improve app layout on smaller screens in future to reduce the need for the user to scroll.
 
 
 ## Testing
@@ -193,6 +194,7 @@ https://www.youtube.com/watch?v=IhmSidOJSeE&t=715s
 - All wording was written by the developer with the aim of creating a simple, useful to do list.
 - Social media icons contained in the footer were sourced from https://www.fontawsome.com.
 - Added favicon to site using https://favicon.io/
+- Used https://cssgradient.io/ to get backgournd colours.
 
 ### Acknowledgements
 

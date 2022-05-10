@@ -140,7 +140,16 @@ ul p {
 .instructions-head {
     text-align: center;
     color:red;
+    font-weight: bold;
 }
+
+.instructions-head-2 {
+    text-align: center;
+    color:red;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
 
 
 .instructions-font {

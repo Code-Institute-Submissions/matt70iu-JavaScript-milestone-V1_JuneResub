@@ -7,21 +7,27 @@ Examples of possible uses include: A shopping list, an inventory list, task list
  The application is also fully repsonsive and works on a variety of devices as illustrated below.
 
 S20 portrait:
+
 ![S20-portrait](assets/images/screenshots/S20-portrait.png)
 
 S20 Landscape
+
 ![S-20-landscape](assets/images/screenshots/S20-landscape.png)
 
 Iphone portrait
+
 ![iphone-portrait](assets/images/screenshots/ipad-portrait.png)
 
 Iphone landscape
+
 ![iphone-landscape](assets/images/screenshots/iphone-landscape.png)
 
 Ipad portrait
+
 ![ipad-portrait](assets/images/screenshots/ipad-portrait.png)
 
 Ipad landscape
+
 ![ipad-landscape](assets/images/screenshots/Ipad-landscape.png)
 
 

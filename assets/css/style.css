@@ -44,12 +44,13 @@ ul p {
 .my-main-list {
     background-color: white;
     min-width: 26vw;
-    max-width: 50vw;
+    max-width: 39vw;
     border-radius: 10px;
-    height: 65vh;
+    height: 200vh;
     display: flex;
     flex-direction: column;
-    overflow:hidden;
+    overflow-y: scroll;
+
 }
 
 .main-header {
@@ -144,7 +145,6 @@ ul p {
 .instructions-head {
     margin-top: 15px;
     text-align: center;
-    color: red;
 
     }
 
@@ -159,11 +159,14 @@ ul p {
     align-items: center;
     justify-items:center;   
 }
+/* Media Queries*/
 
 @media screen and (max-width: 500px) {
 
     .footer-social {
         margin-left: 20px;
         margin-right: 20px;
+        
     }
 }
+

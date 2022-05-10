@@ -1,6 +1,6 @@
 # My To-Do-List
 
-[live site can be found here](https://matt70iu.github.io/JavaScript-milestone-V1/)
+[Live site can be found here](https://matt70iu.github.io/JavaScript-milestone-V1/)
 
 My to do list was set up as a useful tool which can be put to a variety of uses.
 Examples of possible uses include: A shopping list, an inventory list, task list etc
@@ -33,9 +33,16 @@ The user can also navigate back to the main app page when viewing instructions.
 
 ![main-list](assets/images/screenshots/main-list.png)
 
-Languages Used
-HTML5
-CSS3
+### Technologies Used:
+- HTML5
+
+ - CSS3
+
+ - Javascript
+
+ - Font awsome font library
+
+ - Google fonts
 
 ### Existing Features
 
@@ -84,6 +91,7 @@ CSS3
 - Tested app live on Samsung Galaxy S22 and found instructions were not fully visbale on smaller screens as they would not scroll. Amended html markup to rectify.
 - Social icons and links too close to margins on smaller screens, inserted media quueries to compensate.
 - Removed redundent variables cuasing warning in jshint, updated js with es6 code to prevent es6 related errors using const.
+- Portrait on medium to small screens hding the input field and could not be accessed. Added scroll to Y axis and allowed input field to move as items added to list to compensate.
 
 
 ### Validator Testing
@@ -126,6 +134,13 @@ Making a local clone:
 3. Secect the 'repository' menu and from it select 'pull'.
 4. Select 'open in visual studio code' from the home screen.
 5. The repository can now be worked on locally, without the need to gitpod etc.
+
+Forking the repository:
+
+1. Login to Gitbut and select the relevent repository.
+2. At the top the the repository (not page), select settings.
+3. Then select fork. I am currently not able to fork the repository as I own it, but this this the procedure one would normally follow.
+
 
 ## Credits
 
@@ -177,13 +192,7 @@ https://www.youtube.com/watch?v=IhmSidOJSeE&t=715s
 
 - All wording was written by the developer with the aim of creating a simple, useful to do list.
 - Social media icons contained in the footer were sourced from https://www.fontawsome.com.
-- Add favicon to site using https://favicon.io/
-
-
-### Images
-
-- All images used were taken from https://www.pixabay.com and are free of copyright.
-
+- Added favicon to site using https://favicon.io/
 
 ### Acknowledgements
 

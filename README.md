@@ -99,6 +99,7 @@ The user can also navigate back to the main app page when viewing instructions.
 - Social icons and links too close to margins on smaller screens, inserted media quueries to compensate.
 - Removed redundent variables cuasing warning in jshint, updated js with es6 code to prevent es6 related errors using const.
 - Portrait on medium to small screens hding the input field and could not be accessed. Added scroll to Y axis and allowed input field to move as items added to list to compensate.
+- Favicon not displaying unless files are in root directory. Chose to have favicon and leave files in root directory.
 
 
 ### Validator Testing

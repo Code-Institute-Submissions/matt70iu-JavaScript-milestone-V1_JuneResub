@@ -1,19 +1,22 @@
 # My To-Do-List
 
+[live site can be found here](https://matt70iu.github.io/JavaScript-milestone-V1/)
+
 My to do list was set up as a useful tool which can be put to a variety of uses.
-Examples of possible uses include: A shopping list, an inventory list, task list etc. The application is also fully repsonsive and works on a variety of devices as illustrated below.
+Examples of possible uses include: A shopping list, an inventory list, task list etc
+ The application is also fully repsonsive and works on a variety of devices as illustrated below.
 
 S20 portrait:
-![S20-portrait](assets/images/screenshots-2/S20-portrait.png)
+![S20-portrait](assets/images/screenshots/S20-portrait.png)
 
 S20 Landscape
-![S-20-landscape](assets/images/screenshots-2/S20-landscape.png)
+![S-20-landscape](assets/images/screenshots/S20-landscape.png)
 
 Iphone portrait
-![iphone-portrait](assets/images/screenshots-2/Iphone-portrait.png)
+![iphone-portrait](assets/images/screenshots/ipad-portrait.png)
 
 Iphone landscape
-![iphone-landscape](assets/images/screenshots-2/iphone-landscape.png)
+![iphone-landscape](assets/images/screenshots/iphone-landscape.png)
 
 Ipad portrait
 ![ipad-portrait](assets/images/screenshots/ipad-portrait.png)
@@ -28,7 +31,7 @@ Ipad landscape
 The main list area consists of a title, task counter, input field, add button, social media icons, as well as a link to a set of instructions for the app.
 The user can also navigate back to the main app page when viewing instructions.
 
-![main-list](assets/images/screenshots-2/main-list.png)
+![main-list](assets/images/screenshots/main-list.png)
 
 Languages Used
 HTML5
@@ -39,9 +42,9 @@ CSS3
  - Task Counter
  This is set to remain at zero while the task list is empty and increase relevent to the amount of tasks on the list at any given time as illustrated below.
 
- ![task-counter](assets/images/screenshots-2/task-counter.png)
+ ![task-counter](assets/images/screenshots/task-counter.png)
 
-  ![task-counter-increase](assets/images/screenshots-2/counter-increase.png)
+  ![task-counter-increase](assets/images/screenshots/counter-increase.png)
 
  
 
@@ -52,12 +55,12 @@ CSS3
   - At the bottom of the main home page, there is a link to a set of instructions, as well as social media icon links to facebook, twitter and instagram. These are illustrated below.
 
 
-  ![instructions-link-social](assets/images/screenshots-2/instructions-link-social.png)
+  ![instructions-link-social](assets/images/screenshots/instructions-link-social.png)
 
 
  - As the user adds a task, a trash min icon appears beside that task to enable the user to later remove that task once it has been completed, as illustrated below.
     
- ![trash-can-delete](assets/images/screenshots-2/trash-can-delete.png)
+ ![trash-can-delete](assets/images/screenshots/trash-can-delete.png)
 
  - __Instructions page__
 
@@ -65,7 +68,7 @@ CSS3
 
  - There are also suggestions as to possible uses for the app as well as a link back to the main page and facebook, twitter and instagram social media icons. These are also illustrated below.
 
-  ![Instructions-main](assets/images/screenshots-2/instructions-main.png)
+  ![Instructions-main](assets/images/screenshots/instructions-main.png)
 
 
 

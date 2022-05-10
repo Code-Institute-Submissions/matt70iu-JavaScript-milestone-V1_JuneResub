@@ -3,11 +3,24 @@
 My to do list was set up as a useful tool which can be put to a variety of uses.
 Examples of possible uses include: A shopping list, an inventory list, task list etc. The application is also fully repsonsive and works on a variety of devices as illustrated below.
 
+S20 portrait:
+![S20-portrait](assets/images/screenshots-2/S20-portrait.png)
 
-![S20](assets/images/screenshots/Screenshot%20S20%20Ul.png)
-![ipad](assets/images/screenshots/Screenshot%202022%20ipad.png)
-![iphone](assets/images/screenshots/Screenshot%202022%20iphone%20se.png)
-![pixel](assets/images/screenshots/Screenshot%202022-Pixel.png)
+S20 Landscape
+![S-20-landscape](assets/images/screenshots-2/S20-landscape.png)
+
+Iphone portrait
+![iphone-portrait](assets/images/screenshots-2/Iphone-portrait.png)
+
+Iphone landscape
+![iphone-landscape](assets/images/screenshots-2/iphone-landscape.png)
+
+Ipad portrait
+![ipad-portrait](assets/images/screenshots/ipad-portrait.png)
+
+Ipad landscape
+![ipad-landscape](assets/images/screenshots/Ipad-landscape.png)
+
 
 
 
@@ -15,7 +28,8 @@ Examples of possible uses include: A shopping list, an inventory list, task list
 The main list area consists of a title, task counter, input field, add button, social media icons, as well as a link to a set of instructions for the app.
 The user can also navigate back to the main app page when viewing instructions.
 
-![main-list](assets/images/screenshots/Screenshot%202022-main-list.png)
+![main-list](assets/images/screenshots-2/main-list.png)
+
 Languages Used
 HTML5
 CSS3
@@ -25,9 +39,9 @@ CSS3
  - Task Counter
  This is set to remain at zero while the task list is empty and increase relevent to the amount of tasks on the list at any given time as illustrated below.
 
- ![task-counter](assets/images/screenshots/Screenshot%202022%20task%20counter.png)
+ ![task-counter](assets/images/screenshots-2/task-counter.png)
 
-  ![task-counter-increase](assets/images/screenshots/Screenshot%202022-task-increase.png)
+  ![task-counter-increase](assets/images/screenshots-2/counter-increase.png)
 
  
 
@@ -38,12 +52,12 @@ CSS3
   - At the bottom of the main home page, there is a link to a set of instructions, as well as social media icon links to facebook, twitter and instagram. These are illustrated below.
 
 
-  ![instructions-link-social](assets/images/screenshots/Screenshot%202022-instructions-link-social.png)
+  ![instructions-link-social](assets/images/screenshots-2/instructions-link-social.png)
 
 
  - As the user adds a task, a trash min icon appears beside that task to enable the user to later remove that task once it has been completed, as illustrated below.
     
- ![trash-can-delete](assets/images/screenshots/Screenshot%202022-trash-can.png)
+ ![trash-can-delete](assets/images/screenshots-2/trash-can-delete.png)
 
  - __Instructions page__
 
@@ -51,7 +65,7 @@ CSS3
 
  - There are also suggestions as to possible uses for the app as well as a link back to the main page and facebook, twitter and instagram social media icons. These are also illustrated below.
 
-  ![task-counter-increase](assets/images/screenshots/Screenshot%202022-instructions-main.png)
+  ![Instructions-main](assets/images/screenshots-2/instructions-main.png)
 
 
 
@@ -72,26 +86,22 @@ CSS3
 ### Validator Testing
 
 - HTML
-- No errors displayed when code was run through HTML Validator ![html validator](assets/images/screenshots/Screenshot%202022-html-%20validator.png)
+- No errors displayed when code was run through HTML Validator ![html validator](assets/images/screenshots/html-%20validator.png)
 
-  ![html validator](assets/images/screenshots/Screenshot%202022-instructions-html-validator.png)
-https://validator.w3.org/)
-
-
+https://validator.w3.org/
 
 - CSS
 
-- No errors displayed when code was run through CSS Validator  ![CSS Validator](assets/images/screenshots/Screenshot%202022-css-validator.png)
+- No errors displayed when code was run through CSS Validator  ![CSS Validator](assets/images/screenshots/css-validator.png)
 
 https://jigsaw.w3.org/css-validator/
 
 - Js
 
 - No errors displayed when code was run through Js Validator
-![js Validator](assets/images/screenshots/Screenshot%202022-js-validator-screenshot.png)
+![js Validator](assets/images/screenshots/js-validator-screenshot.png)
 
 https://jshint.com/
-
 
 
 ## Deployment

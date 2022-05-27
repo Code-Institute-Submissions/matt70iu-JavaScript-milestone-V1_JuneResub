@@ -13,7 +13,8 @@ let todoList = [];
 //Remove item form list
 
 function deleteItem(e) {
-    let index = todoList.indexOf;
+    let task = e.target.parentElement.previousElementSibling.innerHTML;
+    let index = todoList.indexOf(task);
     if (index !== -1) {
         todoList.splice(index, 1);
     }

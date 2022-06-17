@@ -94,6 +94,7 @@ The user can also navigate back to the main app page when viewing instructions.
 
 ## Testing
 
+- Major bug identified from first submission results, in which delete button was not deleting the item to which it was attached but rather, was deleting the first item at the top of ths list regardless. This has now been recectified by asigning the delete button to the element to which it refers.
 - Main input field and add button kept popping out of the container on smaller screen sizes. Changed CSS property on input field to 100% of container size to rectify issue.
 - Errors in html validator after making social icons live caused by open tags. Rectified tags as needed.
 - Tested app live on Samsung Galaxy S22 and found instructions were not fully visbale on smaller screens as they would not scroll. Amended html markup to rectify.
